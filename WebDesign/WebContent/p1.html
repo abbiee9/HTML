@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- List of Employees:
+<br>-----------------------
+<p id="demo"></p>
+
+<script type="text/javascript">
+var Len,a,i,Names;
+Names=["Tove","Hege","Stale", "Kai Jim", "Borge"];
+
+Len = Names.length;
+a = "<ol>";
+for (i = 0; i <= Len; i++) 
+{
+    a = a+("<li>" + Names[i] + "</li>");
+}
+a = a+ "</ol>";
+document.getElementById("demo").innerHTML = a; -->
+
+ <script type="text/javascript">
+var Len,a,i,Names;
+Names=["Tove","Hege","Stale", "Kai Jim", "Borge"];
+Len = Names.length;
+document.write(Names.sort()+"<br>");
+document.write(" List of Employees: <br>------------------<br>");
+for (i = 0; i <= Len; i++) 
+	{
+		Names.sort();
+		Names.reverse();
+		document.write((i+1)+". "+Names[i]+"<br>");
+	}
+ 
+
+</script>
+</body>
+</html>

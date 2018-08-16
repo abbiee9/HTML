@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> JavaScript Function Using Forms </title>
+<script type="text/javascript" src="emp.js">
+	
+</script>
+</head>
+<body bgcolor="lightgreen">
+	<h3>Employee Details</h3>
+	<form name="emp">
+		Employee ID:    <input type="text" name="EmpId" id="EmpId"><br>
+		Employee Name:  <input type="text" name="EmpName" id="EmpName"><br>
+		Employee Salary:<input type="text" name="EmpSal" id="EmpSal"><br>
+		Gross Salary:	<input type="text" id="gs" readonly ><br>
+		<input type="button" onclick="Abu()" value="Click me">
+		
+		<br><br>
+		Select your Technology: <select name="Tech" id="Tech" onchange="selectTech()">
+		<option value="select"> Select </option>
+		<option value="java"> Java </option>
+		<option value=".net"> .Net </option>
+		<option value="sap"> SAP </option>
+		<option value="mainframe"> Mainframe </option>
+		<option value="testing"> Testing </option>
+		</select><br>
+		
+		
+		Select Expertised Technology: <select  id="domain">
+		</select><br>
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+document.write(' we are learning JS ');
+document.write(' <br> <h4>and </h4>');
+document.write(' <br> we will use it in project ');
+
+var v1;
+//v1=100;
+//v1="Abu"
+//v1=100.876;
+//v1=true;
+v1= new Date();
+document.write(" <br><br> variable value = "+v1);
+document.write("<br> Data Type "+typeof(v1));
+
+var a1,a2;
+a1=100;
+a2=10;
+document.write(" <br> <br>variable value a1= "+a1);
+document.write(" <br> variable value a2= "+a2);
+document.write("<br> The addition is: " +(a1+a2));
+document.write("<br> The subtraction is: " +(a1-a2));
+document.write("<br> The multiply is: " +(a1*a2));
+document.write("<br> The division is: " +(a1/a2));
+document.write("<br> If divided by zero then result: "+(a1/0));
+document.write("<br> Modular division is: "+(100%200));
+
+var b1;
+b1=101;
+if((b1%2)==0)
+	document.write("<br><br>"+b1+ " is even number ");
+else
+	document.write("<br><br>"+b1+ " is odd number ");
+
+var v1;
+v1= new Date();
+var h=v1.getHours()
+document.write("<br><br> The hour is "+h);
+if(h>0 && h<12 )
+	document.write(" <br> Good Morning ");
+else if(h>12&&h<15)
+	document.write(" <br> Good Afternoon ");
+else if(h>=15 && h<18)
+	document.write(" <br> Good Evening ");
+else 
+	document.write("<br> Good night ");
+	
+	
+
+
+/* Window object  */
+
+var num=window.prompt(" Enter any number");
+document.write("<br><br> You entered: "+num);
+
+window.alert(" You are going to run one script ");
+
+var choice=window.confirm(" Do you like to run ?? ");
+if(choice==true)
+	{
+		document.write(" <br> Welcome ");
+	}
+else 
+	window.alert("Thanks for coming !!");
+	
+	
+	
+	
+	
+</script>
+</body>
+</html>

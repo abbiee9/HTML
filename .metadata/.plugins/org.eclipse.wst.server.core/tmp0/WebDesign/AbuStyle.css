@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+body {
+    background-color:  #e4f8f7 ;
+    
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+	color: green;
+	background-color:white;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+span
+{
+	color: red;
+	background-color: yellow;
+	font-size: 20px;
+}
+
+div.abu
+{
+	background-color: blue;
+	font-size: 15px;
+	color: white;
+}
+
+#ab
+{
+	font-family: Arial;
+	background-color: white;
+	font-size: 18px;
+	color: blue;
+}
+
+h4,p#a
+{
+	/* border-style: dotted dashed solid double; */ 
+	border-style: dotted;
+	border-color: red;
+}

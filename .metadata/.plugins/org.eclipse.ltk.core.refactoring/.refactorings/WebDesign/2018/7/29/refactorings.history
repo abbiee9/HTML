@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;WebDesign/WebContent/Emp.html&apos; to &apos;EmpJSFunc.html&apos;" description="Rename resource &apos;Emp.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/Emp.html" name="EmpJSFunc.html" stamp="1532077408949" updateReferences="true"/>
+</session>
